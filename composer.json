@@ -1,0 +1,81 @@
+{
+    "name": "huoxin/auto-image-dimensions",
+    "description": "Automatically fetches and applies width and height dimensions to Flarum image tags to prevent layout shift (CLS).",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0",
+        "marc1706/fast-image-size": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "huoxin",
+            "email": "23447157+huoxin233@users.noreply.github.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Huoxin\\AutoImageDimensions\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Auto Image Dimensions",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-image",
+                "color": "#ffffff",
+                "backgroundColor": "#9A2424"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Huoxin\\AutoImageDimensions\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0",
+        "flarum/markdown": "*",
+        "flarum/bbcode": "*"
+    }
+}
