@@ -2,26 +2,15 @@
 
 > **Read-only archive of released versions of huoxin/auto-image-dimensions.** Not for installation: use [Packagist](https://packagist.org/packages/huoxin/auto-image-dimensions) or the [upstream repository](https://github.com/huoxin233/flarum-ext-auto-image-dimensions).
 
-**11** versions archived · Latest: [`1.0.5`](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.5) · License: `MIT` · Flarum: `^1.2.0`
+**0** versions archived · Latest: [`1.0.6`](https://github.com/flarchive/huoxin233-flarum-ext-auto-image-dimensions/tree/archive/v1.0.6) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `1.0.0` | 2026-07-10 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0) |
-| `1.0.0-beta.1` | 2026-07-08 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0-beta.1) |
-| `1.0.0-beta.2` | 2026-07-09 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0-beta.2) |
-| `1.0.0-beta.3` | 2026-07-09 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0-beta.3) |
-| `1.0.0-beta.4` | 2026-07-09 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0-beta.4) |
-| `1.0.0-beta.5` | 2026-07-10 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.0-beta.5) |
-| `1.0.1` | 2026-07-10 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.1) |
-| `1.0.2` | 2026-07-11 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.2) |
-| `1.0.3` | 2026-07-11 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.3) |
-| `1.0.4` | 2026-08-29 | `^1.2.0` | [Browse](https://github.com/flarchive/huoxin-auto-image-dimensions/tree/archive/v1.0.4) |
+| — | — | — | — |
 
-[View all 11 versions](https://github.com/flarchive/huoxin-auto-image-dimensions/tags)
-
-Catalog entry: [packages/huoxin-auto-image-dimensions.json](https://github.com/flarchive/archive-index/blob/main/packages/huoxin-auto-image-dimensions.json)
+Catalog entry: [packages/huoxin233-flarum-ext-auto-image-dimensions.json](https://github.com/flarchive/archive-index/blob/main/packages/huoxin233-flarum-ext-auto-image-dimensions.json)
 
 ## About this archive
 
